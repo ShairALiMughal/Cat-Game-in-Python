@@ -18,7 +18,7 @@ class Cat:
         self.hydration = 100
         self.energy = 100
         # Generate a new random cat image number between 1 and 4
-        cat_image_number = random.randint(1, 4)
+        cat_image_number = random.randint(1, 5)
 
         # Load cat image
         cat_image = Image.open(f"cat_image{cat_image_number}.png")
